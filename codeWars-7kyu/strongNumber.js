@@ -8,8 +8,8 @@
 // Task
 // Given a number, Find if it is Strong or not.
 
-function strong(n){
-    return [1,2,145,40585].includes(n)? 'Strong!': ' Not Strong!!'
+function strong(number){
+    return [1,2,145,40585].includes(number)? 'Strong!': ' Not Strong!!'
 }
 
 console.log(strong(7))
