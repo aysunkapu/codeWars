@@ -12,3 +12,4 @@
 // Odd_or_Even(8) should return Even, because 8 consecutive numbers contain 4 odd and 4 even numbers, so their sum is always even.
 
 Note
+const ODD = "Odd";
