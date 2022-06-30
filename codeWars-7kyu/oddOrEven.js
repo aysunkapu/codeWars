@@ -13,3 +13,5 @@
 
 // Note
 // const ODD = "Odd";
+const EVEN = "Even";
+const EITHER = "Either";
