@@ -11,3 +11,4 @@ function chromosome (sperm){
     return `Congratulations! You are going to have a ${sperm === 'XY'? 'son' : 'daughter'}.`
 }
 console.log(chromosome('XY'))
+
