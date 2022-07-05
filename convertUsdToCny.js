@@ -26,3 +26,4 @@ function dollarToYuan (usd){
 
 >>>>>>> 57f16c90aeb962d059efa6a115b407fc096e5a60
 console.log(dollarToYuan(30))
+
