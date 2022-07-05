@@ -15,3 +15,4 @@ function counPosSumNeg (n){
 }
 
 console.log(counPosSumNeg([12,2,3,-1,-3,-2]))
+
