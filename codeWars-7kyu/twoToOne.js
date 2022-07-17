@@ -7,3 +7,7 @@
 // 
 // a = "abcdefghijklmnopqrstuvwxyz"
 // longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+
+function longest (s1,s2){
+    return Array.from(new Set(s1+s2)).sort().join('')
+}
