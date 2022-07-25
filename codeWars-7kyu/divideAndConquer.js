@@ -4,7 +4,5 @@
 // Return as a number.
 
 function divCon (arr){
-    return arr.reduce((a, b)=> typeof b === 'number'? a + b : a- Number(b), 0)
+    return arr.reduce((a, b)=> a + (b === +b ? b : -b), 0)
 }
-
-console.log(divCon([1,2,3,'five', 'six']))
