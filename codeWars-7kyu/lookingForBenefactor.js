@@ -33,13 +33,9 @@
 // or return `-1` or ERROR or Nothing or None depending on the language.
 
 function newAvg(arr, newA){
-    const donators = arr.length +1
-    let remaining = newA*donators
-
-    for(let donation of arr){
-        remaining -= donation
+    let num = newA * (arr.length + 1) - arr.reduce((a,b) => a + b,0);
+    if (num <= 0) {
+      throw "Expected New Average is too low";
     }
-
-    if(remaining > 0) return Math.ceil(remaining)
-    throw bs
-}
+    return Math.ceil(num);
+  }
