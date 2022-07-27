@@ -15,3 +15,4 @@
 function findit(arr){
     return arr.indexOf(arr.concat().sort(function(a,b) {return a-b})[1])
 }
+console.log(findit([3,1,2]))
