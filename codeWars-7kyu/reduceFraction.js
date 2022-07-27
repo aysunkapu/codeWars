@@ -7,3 +7,10 @@
 // All numerators and denominators will be positive integers.
 // 
 // Note: This is an introductory Kata for a series... coming soon!
+
+const gcd = (a,b) => b ? gcd(b, a%b) : a;
+
+const redu = ([a,b]) =>{
+    let d = gcd (a,b);
+    return [a/d, b/d];
+}
