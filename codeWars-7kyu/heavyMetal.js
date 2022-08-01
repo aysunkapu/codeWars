@@ -10,7 +10,9 @@
 // a = ä = \u00e4     e = ë = \u00eb     i = ï = \u00ef
 // o = ö = \u00f6     u = ü = \u00fc     y = ÿ = \u00ff
 
-function heavyMetalUmlauts(str) {
-    let rp ={A : "Ä", E : "Ë", I : "Ï", O : "Ö", U : "Ü", Y : "Ÿ", a : "ä", e : "ë", i : "ï", o : "ö", u : "ü", y : "ÿ"};
-    return str.replace(/[aeiouy]/ig, m=>rp[m]);   
+
+
+  function heavyMetal (string){
+    let rp = {A : "Ä", E : "Ë", I : "Ï", O : "Ö", U : "Ü", Y : "Ÿ", a : "ä", e : "ë", i : "ï", o : "ö", u : "ü", y : "ÿ"}
+    return string.replace(/[aeiouy]/ig, m => rp[m]);
   }
