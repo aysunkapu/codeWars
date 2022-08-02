@@ -15,3 +15,7 @@
 // 
 // s="aaaxbbbbyyhwawiwjjjwwm"
 // printer_error(s) => "8/22"
+
+function printer_error(string){
+
+}
