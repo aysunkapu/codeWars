@@ -26,7 +26,6 @@
 // 
 // Don't use the double bitwise NOT ~~ at each iteration if you want to have the same results as in the tests and the other languages.
 
-const intRac = (n, guess, count=1) => {
-    let temp = Math.floor((guess + n / guess) /2)
-    return Math.abs(guess-temp)<1?count:intRac(n,temp,++count)
-  }
+function int_rac(){
+    
+}
