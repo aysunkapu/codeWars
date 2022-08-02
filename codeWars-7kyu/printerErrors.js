@@ -17,5 +17,12 @@
 // printer_error(s) => "8/22"
 
 function printer_error(string){
+    let count = 0;
+    for(let i=0; i<string.length; i++){
+        if (string[i] > "m"){
+            count++
+        }
+    }
+    return count+"/"+string.length;
 
 }
