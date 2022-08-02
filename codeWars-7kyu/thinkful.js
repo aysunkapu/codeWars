@@ -27,3 +27,7 @@
 // "blue"
 // >>> q2.color
 // "red"
+
+class Quark {
+    constructor (color, flavor)
+}
