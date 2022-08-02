@@ -29,5 +29,7 @@
 // "red"
 
 class Quark {
-    constructor (color, flavor)
+    constructor (color, flavor) {
+        Object.assign(this, {color, flavor, baryon_number: 1 / 3})
+    }
 }
