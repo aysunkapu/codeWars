@@ -26,3 +26,5 @@ function printer_error(string){
     return count+"/"+string.length;
 
 }
+
+console.log(printer_error("aaaxxzxx"))
