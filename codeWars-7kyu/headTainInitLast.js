@@ -25,3 +25,10 @@
 // 
 // head([1,2,3,4,5]); => 1
 // tail([1,2,3,4,5]); => [2,3,4,5]
+
+function head(arr){
+    return arr[0]
+}
+function tail(arr){
+    return arr.slice(1)
+}
