@@ -8,11 +8,7 @@
 // Hero's algorithm is not always going to come to an exactly correct result! For instance: if n = 25 we get 5 but for n = 26 we also get 5. Nevertheless 5 is the integer square root of 26.
 // 
 // The kata is to return the count of the progression of integer approximations that the algorithm makes.
-// 
-// Reference:
-// 
-// https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
-// 
+
 // Some examples:
 // 
 // int_rac(25,1): follows a progression of [1,13,7,5] so our function should return 4.
