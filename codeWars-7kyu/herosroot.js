@@ -26,6 +26,34 @@
 // 
 // Don't use the double bitwise NOT ~~ at each iteration if you want to have the same results as in the tests and the other languages.
 
-function int_rac(){
-    
-}
+function intRac(n, guess) {
+    var x, newx = guess, i = 0
+    do {
+      i++
+      x = newx
+      newx = Math.floor((x + n / x) / 2)
+    } while (Math.abs(x - newx) > 0)
+    return i
+  }
+
+  function intRac(n, guess) {
+    var i=0;
+    do { 
+      x=Math.ceil(guess);
+      guess=(x+n/x)/2;
+      i++;
+    } while (Math.abs(guess-x)>1);
+    return i;
+ }
+
+ function intRac(n, guess) {
+    var c=0;
+    var d=0
+    while (Math.abs(guess-d)>=1)
+    {
+      d=guess
+      guess=Math.floor((guess+n/guess)/2);
+      c++;
+    }
+    return c;
+  }
