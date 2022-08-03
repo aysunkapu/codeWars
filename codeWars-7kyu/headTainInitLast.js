@@ -36,5 +36,5 @@ function init (arr){
     return arr.slice(0,-1)
 }
 function last (arr){
-    retu
+    return arr[arr.lenght-1]
 }
