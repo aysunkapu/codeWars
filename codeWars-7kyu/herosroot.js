@@ -10,7 +10,6 @@
 // The kata is to return the count of the progression of integer approximations that the algorithm makes.
 
 // Some examples:
-// 
 // int_rac(25,1): follows a progression of [1,13,7,5] so our function should return 4.
 // 
 // int_rac(125348,300): has a progression of [300,358,354] so our function should return 3.
