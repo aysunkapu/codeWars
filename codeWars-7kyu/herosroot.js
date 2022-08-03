@@ -26,7 +26,7 @@
 // 
 // Don't use the double bitwise NOT ~~ at each iteration if you want to have the same results as in the tests and the other languages.
 
-function intRac(n, guess) {
+function int_rac(n, guess) {
     var x, newx = guess, i = 0
     do {
       i++
