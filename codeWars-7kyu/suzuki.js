@@ -25,8 +25,8 @@
 // 
 // ['xxd', 'xxc', 'xxb', 'xxa', 'xd', 'xc', 'xb', 'xa']
 
-function lineupStudents(students) {
-    var list = students.trim().split(" ");
+function lineUpStudents(students) {
+    let list = students.trim().split(" ");
     
     return list = list.sort((a,b) => {
       return b.length - a.length ||
@@ -34,13 +34,4 @@ function lineupStudents(students) {
     });
   }
   
-  /* The localeCompare() method returns a number indicating whether 
-     the string comes before, after or is equal as the compareString 
-     in sort order. 
-   */
-  
-  /* The localeCompare() method returns a number indicating whether 
-     the string comes before, after or is equal as the compareString 
-     in sort order. 
-   */
-console.log(lineupStudents(['hello', 'com', 'a']))
+ 
