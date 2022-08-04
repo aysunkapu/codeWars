@@ -24,3 +24,8 @@
 // Returns
 // 
 // ['xxd', 'xxc', 'xxb', 'xxa', 'xd', 'xc', 'xb', 'xa']
+
+function lineUpStudents (students){
+    return students.trim().split(` `).sort((a,b) => b.length -  a.length || b.localeCompare(a))
+}
+console.log(lineUpStudents(['hello, com']))
