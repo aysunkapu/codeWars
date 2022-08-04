@@ -7,3 +7,8 @@
 // XO("ooxXm") => true
 // XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 // XO("zzoo") => false
+
+function sameAmount (str){
+    return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
+}
+console.log(sameAmount(['x','o','x']))
