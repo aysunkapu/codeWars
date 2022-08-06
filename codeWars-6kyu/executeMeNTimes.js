@@ -8,4 +8,4 @@
 function execute(action, n) {
     return Promise.all(Array.from({ length: n }, action));
   }
-  console
+  console.log(execute())
