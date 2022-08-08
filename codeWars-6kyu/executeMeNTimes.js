@@ -4,3 +4,7 @@
 // Find a way to execute the action n times in parallel, such that the sample tests complete under the 12 second time limit imposed by Codewars. The submission tests will also test for similar scenarios.
 // 
 // Hint: If you're not sure where to start, read up on async/await.
+
+function execute(action, n) {
+    return Promise.all(Array.from({ length: n }, action));
+  }
