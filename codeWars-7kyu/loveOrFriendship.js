@@ -16,3 +16,4 @@ function wordsToMarks (string){
     }
     return sum
 }
+console.log(wordsToMarks('friendship'))
