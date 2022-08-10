@@ -3,9 +3,6 @@
 // 
 // Task
 // Given a number, Find if it is Tidy or not .
-// 
-// Warm-up (Highly recommended)
-// Playing With Numbers Series
 // Notes
 // Number passed is always Positive .
 // 
@@ -31,4 +28,8 @@
 // tidyNumber (2335) ==> return (true)
 // Explanation:
 // The number's digits {2 , 3, 3, 5} are in non-Decreasing Order , Note 3 <= 3
+
+function tidyNumber(num){
+    
+}
 
