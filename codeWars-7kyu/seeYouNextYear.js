@@ -24,3 +24,8 @@
 // nextHappyYear (1001) ==> return (1023)
 // Explanation:
 // As the Next closest year with only distinct digits is 1023 .
+
+function happyYear(year){
+    return new Set(`${++year}`).size < 4 ? happyYear(year) : year;
+}
+console.log(happyYear(8989))
