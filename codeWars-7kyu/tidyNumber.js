@@ -30,6 +30,9 @@
 // The number's digits {2 , 3, 3, 5} are in non-Decreasing Order , Note 3 <= 3
 
 function tidyNumber(num){
-    
+    return Number(num.toString().split('').sort((a,b) => a-b).join('')) == num
+
 }
+
+console.log(tidyNumber(21))
 
