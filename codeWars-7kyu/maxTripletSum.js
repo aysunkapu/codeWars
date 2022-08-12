@@ -28,3 +28,8 @@
 // 
 // Note : duplications are not included when summing , (i.e) the numbers added only once .
 
+function maxTriSum(arr){
+    let [a,b,c] = [...new Set(arr)].sort((a,b) => a-b).slice `-3`
+    return a+b+c
+}
+console.log(maxTriSum([1,2,3,4,5]))
