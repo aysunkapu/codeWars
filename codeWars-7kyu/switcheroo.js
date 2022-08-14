@@ -5,3 +5,11 @@
 // 
 // 'acb' --> 'bca'
 // 'aabacbaa' --> 'bbabcabb'
+
+function switchero(string){
+    return string.split('').map(function(el){
+        if(el== 'b') return 'a';
+        if(el== 'a') return 'b';
+        if(el== 'c') return 'c'
+    }).join('')
+}
