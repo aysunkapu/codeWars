@@ -13,3 +13,5 @@ function switchero(string){
         if(el== 'c') return 'c'
     }).join('')
 }
+
+console.log(switchero('aaaaa'))
