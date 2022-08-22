@@ -11,4 +11,4 @@ function moveTen (s){
     return [...s].map(x => map[alpha.indexOf(x)]).join('');
 }
 
-console.log(moveTen('abc'))
+console.log(moveTen('klm'))
