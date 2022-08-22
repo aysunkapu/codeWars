@@ -8,5 +8,5 @@
 // Go to work!
 
 function fire(str){
-    
+    return str.replace(/Fire/g, '')
 }
