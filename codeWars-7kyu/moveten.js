@@ -8,5 +8,7 @@
 function moveTen (s){
     const alpha = 'abcdefghijklmnopqrstuvwxyz';
     const map = 'klmnopqrstuvwxyz'
-    return [...s]
+    return [...s].map(x => map[alpha.indexOf(x)]).join('');
 }
+
+console.log(moveTen('abc'))
