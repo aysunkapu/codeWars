@@ -7,3 +7,6 @@
 // 
 // Go to work!
 
+function fire(str){
+    
+}
