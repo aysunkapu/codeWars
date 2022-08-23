@@ -4,3 +4,8 @@
 // 
 // All inputs will be valid.
 
+function numsToLetters (num){
+    const alphabet = 'abcdefghilmnopqrstyuwxz'
+    const numbers = ''
+}
+
