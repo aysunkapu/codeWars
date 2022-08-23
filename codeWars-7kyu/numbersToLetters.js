@@ -5,8 +5,7 @@
 // All inputs will be valid.
 
 function numsToLetters (x){
-    const arr = ['', "z", "y", "x", "w", "v", "u", "t", "s", "r", "q", "p", "o", "n", "m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a", "!", "?"," "];
-    return x.map(Number).map(el => arr[el]).join('')
+    return x.map(e =>".zyxwvutsrqponmlkjihgfedcba!? "[e]).join``
 }
 console.log(numsToLetters('y'))
 
