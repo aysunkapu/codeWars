@@ -7,5 +7,5 @@
 function numsToLetters (x){
     return x.map(e =>".zyxwvutsrqponmlkjihgfedcba!? "[e]).join``
 }
-console.log(numsToLetters('y'))
+console.log(numsToLetters(1))
 
