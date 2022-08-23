@@ -4,8 +4,9 @@
 // 
 // All inputs will be valid.
 
-function numsToLetters (x){
-    return x.map(e =>".zyxwvutsrqponmlkjihgfedcba!? "[e]).join``
-}
-console.log(numsToLetters(1))
+function switcher(x){
+    let revAlphabet = ' zyxwvutsrqponmlkjihgfedcba!? '
+    return x.map(y => revAlphabet[y]).join('')
+  }
+console.log(switcher("q"))
 
