@@ -4,9 +4,9 @@
 // 
 // All inputs will be valid.
 
-function switcher(x){
-    let revAlphabet = ' zyxwvutsrqponmlkjihgfedcba!? '
-    return x.map(y => revAlphabet[y]).join('')
+function switcher(x) {
+    const newArr = ' ?!abcdefghijklmnopqrstuvwxyz '.split('').reverse();
+    return x.map(mov => newArr[mov]).join('');
   }
-console.log(switcher("q"))
+console.log(switcher(12))
 
