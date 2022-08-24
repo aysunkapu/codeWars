@@ -36,4 +36,6 @@
 // Finally ,The Fifth element 900 is the product of all array's elements except the fifth element 2
 
 
-function
+function productArray(){
+    
+}
