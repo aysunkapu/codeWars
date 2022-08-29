@@ -8,4 +8,6 @@
 // lengthOfLine([ [ 0 , 0 ] , [ 5, -7 ] ]); => "8.60"
 // If the 2 given co-ordinates are the same, the returned length should be "0.00"
 
-function
+function lengthOfLine ([[a,b], [c,d]]){
+    return Math.hypot(a-c,b-d).toFixed(2)
+}
