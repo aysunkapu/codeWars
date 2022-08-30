@@ -46,3 +46,9 @@
 // 
 // 
 // findBalance([1,1,3,1,1]) === [2]
+
+function findBalance(a){
+    const f=a=>Math.round(a.reduce((a,c)=>a+c,0)/a.length)
+    return a.map((_,i)=>i).filter(i=>f(a.slice(0,i))===f(a.slice(i+1)))
+}
+console.log(findBalance([2,2,2]))
