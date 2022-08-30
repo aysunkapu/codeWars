@@ -13,6 +13,6 @@
 // 
 // string = "Visca ElbarcaXxX" and c = "X" => "Visca Elbarca"
 
-function trim(string, c){
-    
+String.prototype.trim = function (c = ' '){
+    return this.replace(RegExp(`^${c}+|${c}+$`, 'gi'), '');
 }
