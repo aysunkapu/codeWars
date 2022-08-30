@@ -12,3 +12,7 @@
 // string = "LLLHello Worldlll" and c = "l" => "Hello World"
 // 
 // string = "Visca ElbarcaXxX" and c = "X" => "Visca Elbarca"
+
+function trim(string, c){
+    
+}
