@@ -20,4 +20,3 @@ Introduction
 // For the purpose of this kata, a character is considered a consonant if it's equal to one of the letters BCDFGHJKLMNPQRSTVWXYZ.
 // Testing
 // The tests will challenge your function with sentences of length 0-255, ASCII characters between 32-126 and nothing else.
-// 
