@@ -21,4 +21,3 @@ Introduction
 // Testing
 // The tests will challenge your function with sentences of length 0-255, ASCII characters between 32-126 and nothing else.
 // 
-// Links
