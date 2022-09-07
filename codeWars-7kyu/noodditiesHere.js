@@ -3,10 +3,18 @@
 // function noOdds(values)
 
 function noOdds(values){
+    return values.filter(el => el%2 === 0);
+}
+
+function noOdds(values){
+    const arr = []
     for(let i=0; i<values.length; i++){
-        if(i%2 == 0 ){
-            return i
+        if(values[i]%2 ===0){
+            arr.push(values[i])
         }
     }
+    return arr
 }
+
+
 console.log(noOdds([1,2,3,4,5]))
