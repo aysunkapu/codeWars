@@ -8,13 +8,18 @@
 // 
 // The array will always have at least 2 elements1 and all elements will be numbers. The numbers will also all be unique and in ascending order. The numbers could be positive or negative and the first non-consecutive could be either too!
 
-function firstNonCons (arr){
-    for(let i=0; i<arr.length-1; ++i){
-        if (arr[i] + 1 !== arr[i + 1]){
-            return arr[i + 1]
+
+function firstNonCons(arr){
+    for(let i=0; i<arr.length-1; i++){
+        const curr = arr[i];
+        const next = arr[i+1];
+
+        if(curr + 1 !== next ){
+            return next
         }
     }
     return null
 }
+
 
 console.log(firstNonCons([1,2,3,5]))
