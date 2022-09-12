@@ -3,13 +3,7 @@
 // Note: Only valid inputs will be given.
 
 function booleanToString (b){
-    if (b == true || b == false){
-        return b.toString() 
-
-    }
-    else{
-        return b
-    }
+    return b.toString()
 }
 console.log(booleanToString(true))
 console.log(booleanToString(typeof b))
