@@ -7,4 +7,4 @@
  function returnOdds (val){
      return val.filter(v => v%2)
  }
- console.log(returnOdds([1,2,3,4]))
+ console.log(returnOdds([2,3,4,5]))
