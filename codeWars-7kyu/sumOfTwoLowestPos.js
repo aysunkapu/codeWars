@@ -7,6 +7,7 @@
 
 // Pseuducode: Sort the arr from smallest to largest, capture the two smallest arr members then return their sum
 function sumOfTwoLowPosIn (numbers){
-    let arr = numbers.sort()
+    let arr = numbers.sort((a,b) => a - b)
+    console.log(arr[0] + arr[1])
 
 }
