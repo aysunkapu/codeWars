@@ -11,7 +11,8 @@
 // ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle
 
 function findNeedle(arr){
-    return 'found the needle at position ' + arr.indexOf('needle')
+    let indexofneedle = arr.indexOf('needle')
+    return `found the needle at position  ${indexofneedle}`
 
 }
 console.log(findNeedle(['gunaydin', 'hello', 'merhaba','needle']))
