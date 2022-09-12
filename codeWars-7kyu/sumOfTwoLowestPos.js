@@ -10,4 +10,4 @@ function sumOfTwoLowPosIn (numbers){
     let arr = numbers.sort((a,b) => a - b)
     return arr[0] + arr[1]
 }
-sumOfTwoLowPosIn([19, 5, 42, 2, 77])
+console.log(sumOfTwoLowPosIn([19, 5, 42, 2, 77]))
