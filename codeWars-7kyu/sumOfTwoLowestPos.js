@@ -6,6 +6,7 @@
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
 
 // Pseuducode: Sort the arr from smallest to largest, capture the two smallest arr members then return their sum
-function sumOfTwoLowPosIn (arr){
+function sumOfTwoLowPosIn (numbers){
+    
 
 }
