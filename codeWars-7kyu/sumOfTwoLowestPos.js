@@ -4,3 +4,8 @@
 // For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 // 
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+// Pseuducode: Sort the arr from smallest to largest, capture the two smallest arr members then return their sum
+function sumOfTwoLowPosIn (arr){
+
+}
