@@ -15,5 +15,17 @@
 // However, the arrays can have varying lengths, not just limited to 4.
 
 
-//Parameters: an array containing ones and zeros, can be varying length
-//Result:
+//Parameters: an array containing ones and zeros, can be varying length.
+//Result: an integer equuivalent of the binary value represented in the array.
+//Exapmles: binaryArrayToNumber([0,0,0,1]), 1
+        //  binaryArrayToNumber([0,0,1,0]), 2
+        //  binaryArrayToNumber([1,1,1,1]), 15
+        //  binaryArrayToNumber([0,1,1,0]), 6
+
+//Pseudocode: take the array and join the elements together into a string and then convert to binary using that string and return the integer equivalent
+
+const binaryArrayToNumber = arr => {
+    console.log(parseInt(arr.join(''),2))
+}
+
+binaryArrayToNumber([1,1,1,1])
