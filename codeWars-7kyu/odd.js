@@ -16,6 +16,14 @@
 // Input: [0, -1, -5]
 // Output: "even"
 
+//parameters: an array with integers, or an empty arrray 
+// result: whether the sum of the array elements is even or odd, display as an "even" or "odd"
+// examples: (oddOrEven([0, 1, 5]), 'even')
+//  (oddOrEven([0, 1, 3]), 'even')
+//   (oddOrEven([1023, 1, 2]), 'even')
+// pseudocode: use reduce method to sum the array elements and then check whether it is odd or even using a modulus, then return the appropriate string value.
+
+
 function oddOrEven (array){
     return array.reduce((a,b)=> a+b, 0)%2 == 0 ? 'even' : 'odd'
 }
