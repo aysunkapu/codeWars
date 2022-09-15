@@ -20,26 +20,7 @@
 // }
 // 
 // console.log(defineCards('3♠'))
-// 
 
-function defineSuit(card) {
-    const s = {
-      "♣": "clubs",
-      "♠": "spades",
-      "♦": "diamonds",
-      "♥": "hearts"
-    }
-    return s[card.charAt(card.length - 1)]
-  }
-
-  function defineSuit(card) {
-    return {
-      '♣' : 'clubs',
-      '♦' : 'diamonds',
-      '♥' : 'hearts',
-      '♠' : 'spades'
-    }[card.substr(-1)]
-  }
 
   function defineSuit(card) {
     if(card.includes('♥')) return 'hearts'
