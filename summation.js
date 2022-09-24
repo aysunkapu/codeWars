@@ -13,4 +13,4 @@ function sum (number){
     return number*(number+1)/2
 }
 
-console.log(sum(8))
+console.log(sum(6))
