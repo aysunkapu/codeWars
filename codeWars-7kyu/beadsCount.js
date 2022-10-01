@@ -8,3 +8,4 @@
 function countRedBeans (n){
     return n<2 ? 0 : 2*n - 2;
 }
+console.log(12)
