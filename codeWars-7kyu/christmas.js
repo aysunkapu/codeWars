@@ -34,4 +34,7 @@ song = [
     "2 turtle doves and", 
     "a partridge in a pear tree."
     ]
-    let comparator = (a,b) => song.indexOf(a) - song.indexOf(b)
+    function comparator (a,b){
+      return song.indexOf(a) - song.indexOf(b)
+    }
+  
