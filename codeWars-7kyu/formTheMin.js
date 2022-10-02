@@ -21,4 +21,4 @@ function minimumValue(values){
     let arr =Array.from(new Set(values))
     return parseInt(arr.sort().join(''))
 }
-console.log(minimumValue([2,9,9,4,5]))
+console.log(minimumValue([2,9,4,4,5]))
