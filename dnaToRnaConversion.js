@@ -15,3 +15,9 @@ function dnaToRna (dna){
 }
 
 console.log(dnaToRna('GCAT'))
+
+//PREP
+//Parameter : is a string
+//Return : is also a string
+//Example : "GCAT"  =>  "GCAU"
+//Pseudocode : write a function which takes DNA and return the DNA into RNA
