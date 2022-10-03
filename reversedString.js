@@ -8,3 +8,9 @@ function compSol (str){
 }
 
 console.log(compSol("Nasilsin?"))
+
+//PREP
+//Parameter : is a string
+//Return : is a string as well
+//Example : 'word'   =>  'drow'
+//Pseudocode : write a function which takes a string and return the string's reversed value
