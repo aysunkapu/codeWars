@@ -7,3 +7,8 @@ function calAverage (arr){
 }
 
 console.log(calAverage([2,3,4]))
+ //PREP
+ //Parameter : is an array with numbers
+ //Return : is a number
+//Example : [1,2,3,4,5] => 3
+//Pseudocode : write a function which takes an array with numbers and return the average of the list of numbers
