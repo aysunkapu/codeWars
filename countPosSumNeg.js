@@ -12,3 +12,8 @@ function countPositivesSumNegatives(input) {
 }
 console.log(counPosSumNeg([12,2,3,-1,-3,-2]))
 
+//PREP 
+//Parameter : is an array with numbers
+//Return : is an array
+//Example : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15] =>  [10, -65]
+//Pseudocode : write a function that takes an array with integers and return the array, where the first element is the count of pos numbs ands second element is sum of neg numbers.
