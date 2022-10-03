@@ -13,3 +13,9 @@ function abbreviateName (name){
 }
 
 console.log(abbreviateName('aysun kapusuz'))
+
+//PREP
+//Parameter : is a string
+//Result : is a string as well
+//Example : // Sam Harris => S.H   patrick feeney => P.F
+//Pseudocode : write a function which takes name with surname and return the first letters from name parameter, capitalize them and put dot between them, no space
