@@ -22,3 +22,20 @@ const rPs = (player1, player2) => {
   }
 
 console.log(rPs('paper', 'scissors'))
+
+const rps = (p1, p2) => {
+  if( p1 === p2){
+    return "Draw!"
+  }else if(p1=== "scissors" && p2 === "paper" || p1=== "rock" && p2 === "scissors" || p1=== "paper" && p2 === "rock"){
+    return "Player 1 won!"
+  }else{
+    return "Player 2 won!"
+  }
+};
+
+// prep
+// we have two parameters as p1 p2
+// return should be  "Player 1 won!", "Player 2 won!" or "Draw!" according to the game
+// example "scissors", "paper" --> "Player 1 won!"
+//         "scissors", "rock" --> "Player 2 won!"
+//         "paper", "paper" --> "Draw!"
