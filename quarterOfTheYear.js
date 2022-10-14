@@ -9,6 +9,8 @@ const quarterOf = (month) => {
    return 4;
     
   }
+
+  const quarterOfMonth = m => Math.ceil(m/3);
     
   // prep
     //parameters is a number
