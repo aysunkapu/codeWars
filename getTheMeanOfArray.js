@@ -12,6 +12,9 @@ function getAverage(marks){
     
     return Math.floor(result/marks.length)
   }
+  function getAverage(marks){
+    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+  }
   
   //prep
   //parameter is an array
