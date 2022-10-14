@@ -8,3 +8,8 @@ class Kata {
         return length*width*height
     }
 }
+
+  //prep
+  //parameters are numbers (3 value)
+  // return should be cuboid of the numbers
+  // example (12,2,3)=> 72
