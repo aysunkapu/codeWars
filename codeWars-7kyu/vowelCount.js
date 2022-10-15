@@ -9,3 +9,7 @@ function vowels (str){
     return str.split('').filter(c => "aeiouAEIOU".includes(c)).length;
 }
 console.log(vowels('MERHABA, DUNYA'))
+//prep
+//parameter is a string
+//return is a number of vowels
+//example ("abracadabra"), 5

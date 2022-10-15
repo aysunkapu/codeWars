@@ -5,3 +5,8 @@ function removeExcMarks (str){
 }
 
 console.log(removeExcMarks('!He!llo!'))
+
+//prep
+//parameter is a string with exclamation
+//return should the string without exc.
+//example ("Hello World!"), "Hello World"

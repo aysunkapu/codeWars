@@ -14,3 +14,10 @@ function countSheep (num){
 
 
 console.log(countSheep(12))
+
+//prep
+//paramaeter is a single number
+// return is "1 sheep...2 sheep...3 sheep..." according to the parameter
+//example (countSheep(0), "");
+//        (countSheep(1), "1 sheep...");
+//        (countSheep(2), "1 sheep...2 sheep...");
