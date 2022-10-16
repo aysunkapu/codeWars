@@ -12,3 +12,8 @@ function removeElements (arr){
     })
 }
 console.log(removeElements([1,2,3,4,5,6]))
+
+//prep
+//parameter is an array
+// return is even index of the array
+// example // ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
