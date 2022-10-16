@@ -11,6 +11,15 @@
 // So the maximum value that you can obtain is 9.
 
 function returnMaxValue (a,b,c){
-    return Math.max(a * (b + c),a*b*c,a+b*c,(a+b)*c)
+    return Math.max(a+b+c, a*b*c, (a+b)*c, a*(b+c))
 }
 console.log(returnMaxValue(12,2,3))
+
+//prep
+//parameters are numbers
+//return is a single a single highest num
+//example 
+// 1 * (2 + 3) = 5
+// 1 * 2 * 3 = 6
+// 1 + 2 * 3 = 7
+// (1 + 2) * 3 = 9
