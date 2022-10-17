@@ -20,3 +20,8 @@ function checkForFactor (base, factor){
 }
 
 console.log(checkForFactor(6,4))
+
+//prep
+//parameters are numbs
+//return is a boolean according to the divisibility
+//example  2 is not a factor of 7 because: 7 % 2 = 1
