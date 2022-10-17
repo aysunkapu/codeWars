@@ -16,3 +16,9 @@ function findBetween (n1,n2){
 }
 console.log(findBetween(12,20))
 
+//prep
+//parameters are numbs
+//return is an array of all integers between the input parameters
+//example // a = 1
+//           b = 4
+//           --> [1, 2, 3, 4]
