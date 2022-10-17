@@ -34,3 +34,9 @@ function finalGrade (exam, projects){
     } 
 }
 console.log(finalGrade(80,3))
+
+//prep
+//parameters are numbs
+//return is a numb according to the conditions
+//example // 55, 0 --> 0
+//           20, 2 --> 0
