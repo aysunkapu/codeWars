@@ -19,6 +19,12 @@ function correct (string){
     return string.replace(/[501]/g, (char) => corrections[char])
 }
 
+function correct(string) {
+    return string.replace(/0/g, "O")
+                 .replace(/5/g, "S")
+                 .replace(/1/g, "I");
+}
+
 //prep
 //parameter is a string
 //return is a string as well, correct the missspelling char
