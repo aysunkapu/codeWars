@@ -9,3 +9,7 @@ function greet(name){
     return `Hello, ${name}`
 }
 console.log(greet('Mr. Juan'))
+
+//parameter is a string
+//return the string name with Hello
+//example ('Mr. Spock' =>  Hello, Mr. Spock)
