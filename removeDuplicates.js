@@ -6,7 +6,10 @@
 function dis (a){
     return a.filter((x, index)=> a.indexOf(x) === index);
 }
-
+function distinct(a) {
+    return [...new Set(a)];
+  } 
+  
 //prep
 //parameter is an array
 //return is the array without duplicates
