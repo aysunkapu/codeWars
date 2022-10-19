@@ -14,3 +14,11 @@ function to_binary (val){
     return +val.toString(2)
 }
 console.log(to_binary(100))
+
+//prep
+//parameter is a single number
+//result is a number (binary conv)
+//example 
+// toBinary(1)  /* should return 1 */
+// toBinary(5)  /* should return 101 */
+// toBinary(11) /* should return 1011
