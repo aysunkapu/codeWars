@@ -12,3 +12,12 @@ function shortcut (str){
     return str.replace(/[aeiou]/g, '')
 }
 console.log(shortcut('merhaba'))
+
+//prep
+//parameter is a single string, it can be uppercase or lowercase
+//return is a string as well without lowercase vowels
+//example 
+// "hello"     -->  "hll"
+// "codewars"  -->  "cdwrs"
+// "goodbye"   -->  "gdby"
+// "HELLO"     -->  "HELLO"
