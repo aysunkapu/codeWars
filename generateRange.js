@@ -18,6 +18,10 @@ function generateRange(min, max, step){
     }
     return arr
   }
+  function generateRange(min, max, step) {
+    for (var res = []; min <= max; min += step) res.push(min)
+    return res
+  }
 
   //prep
   //have 3 parameters as numbs
