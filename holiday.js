@@ -10,6 +10,9 @@
 function dutyFree(normPrice, discount, hol){
     return Math.floor(hol/((normPrice*discount)/100));
   }
+  function dutyFree(normPrice, discount, hol){
+    return(Math.floor(hol / normPrice / discount * 100))
+  }
 
 //prep
 //we have 3 parameters as numbs
