@@ -14,3 +14,12 @@ function mergingArrays (arr1,arr2){
 }
 
 console.log(mergingArrays([1,2,3], [4,5,6]))
+
+function mergeArrays(x,y){
+    return x.filter((item)=> !y.includes(item)).concat(y).sort((a,b)=> a-b)
+}
+
+//prep
+//we have 2 arrays with integer or empty
+//merge the array and return sorted and do not duplicate numbs
+//example [1, 3, 5, 7, 9], [10, 8, 6, 4, 2] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
