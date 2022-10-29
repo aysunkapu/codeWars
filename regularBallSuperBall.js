@@ -13,3 +13,5 @@ class Ball {
         this.ballType = ballType
     }
 }
+
+//create a class with an argument 
