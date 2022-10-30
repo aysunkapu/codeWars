@@ -7,3 +7,12 @@
 // 
 // array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
 // array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
+
+function index(array, n){
+    return array.length > n ? Math.pow(array[n], n) : -1;
+  }
+  
+//prep
+//have two parameters, the first one is an arr the second one is a num
+//find the n index then return the num index times
+// example [1, 2, 3, 4],2),9
