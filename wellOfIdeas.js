@@ -18,3 +18,9 @@ function well(x){
 // if there is no "good" return "Fail!" if there is one or two "good" return "Published!" otherwise return "I smell a series!"
 //example ['bad', 'bad', 'bad']), 'Fail!'
 //        ['good', 'bad', 'bad', 'bad', 'bad']), 'Publish!'
+
+const well = x => {
+    const good_count = x.filter(x => x == 'good').length;
+    return good_count < 1 ? 'Fail!' : 
+           good_count < 3 ? 'Publish!' : 'I smell a series!';
+  }
