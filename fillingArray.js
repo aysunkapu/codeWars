@@ -16,3 +16,7 @@ function fillArray (arr){
 }
 
 console.log(fillArray(5))
+
+//have a num
+//create an array from 0 until the num and return it
+// example (4)=> [0,1,2,3]
