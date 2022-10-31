@@ -9,3 +9,7 @@ function plural (num){
     return num != 1
 }
 console.log(plural(1))
+
+//parameter is a single integar
+//return is true or false according to the condition
+//example (0), true (1), false, (100), true,
