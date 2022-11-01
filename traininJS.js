@@ -39,8 +39,7 @@
 // Series
 // ( ↑↑↑ Click the link above can get my newest kata list, Please add it to your favorites)
 
-function helloWorld (){
-    return "Hello World!"
+helloWorld = function() {
+    var str = "Hello World!";
+    console.log( str );
   }
-  
-  console.log(helloWorld)
