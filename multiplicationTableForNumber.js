@@ -20,3 +20,16 @@
 function multiTable(number) {
     return [1,2,3,4,5,6,7,8,9,10].map(item => `${item} * ${number} = ${item*number}`).join('\n');
   }
+
+  //parameter is a an integer
+  // return multiplication table forthe integer from 1 to 10
+  //example // 1 * 5 = 5
+// 2 * 5 = 10
+// 3 * 5 = 15
+// 4 * 5 = 20
+// 5 * 5 = 25
+// 6 * 5 = 30
+// 7 * 5 = 35
+// 8 * 5 = 40
+// 9 * 5 = 45
+// 10 * 5 = 50
