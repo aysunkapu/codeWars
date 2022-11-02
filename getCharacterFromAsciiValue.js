@@ -12,3 +12,7 @@ function getChar(c){
 }
 
 console.log(getChar(70))
+
+//parameter is a number
+//return ASCII char for that number
+//example // get_char(65) => 'A'
