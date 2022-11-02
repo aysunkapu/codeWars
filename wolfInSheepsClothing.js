@@ -21,3 +21,7 @@ function warnTheSheep (queue){
 }
 
 console.log(warnTheSheep(['sheep','wolf','sheep','sheep']))
+
+//have an array with strings
+//if "wolf" is the last index of the array return "Pls go away and stop eating my sheep" otherwise return "Oi! Sheep (position)! You are about to be eaten by a wolf!"
+//example ["sheep", "sheep", "wolf"] => "Pls go away and stop eating my sheep"
