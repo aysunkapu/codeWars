@@ -13,6 +13,10 @@ function xor(a, b) {
     return a == true && b== true || a == false && b == false ? false : true
   }
 
+  // function xor(a, b) {
+  //   return a != b;
+  // }
+
   //have 2 boolean params
   // if both true or both false return false, otherwise return true
   //example (false,false)=> false
