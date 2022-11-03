@@ -10,3 +10,11 @@
 // 1050 -> 105
 // -1050 -> -105
 // Zero alone is fine, don't worry about it. Poor guy anyway
+
+function noBoringZeros(n) {
+    return n % 10 || n === 0 ? n : noBoringZeros(n / 10);
+ }
+
+ //parameter is a number ending with zeros
+ //get rid of the zeros end of the num and return it
+ //example 1050 -> 105
