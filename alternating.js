@@ -14,3 +14,8 @@
 String.prototype.toAlternatingCase = function () {
     return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('');
   }
+
+  //prep
+  //parameter is a string
+  //if the character is uppercare turn it into lowercase, if lowercase turn it into uppercase and return it 
+  //example // "hello world".toAlternatingCase() === "HELLO WORLD"    "HELLO WORLD".toAlternatingCase() === "hello world"
