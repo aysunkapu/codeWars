@@ -16,3 +16,8 @@ function findNeedle(arr){
 
 }
 console.log(findNeedle(['gunaydin', 'hello', 'merhaba','needle']))
+
+//prep
+//parameter is an array with strings
+//return the position of needle 
+//example  ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 4
