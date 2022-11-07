@@ -13,3 +13,8 @@ function preFizz(n) {
       }
     return arr
   }
+
+  //prep
+  //parameter is a signle num
+  //return is an array from 1 to  the given number
+  //example (2)=> [1,2] (4)=> [1,2,3,4]
