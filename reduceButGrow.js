@@ -5,3 +5,8 @@
 function grow(x){
     return x.reduce((a,b)=> a*b,1)
 }
+
+//prep
+//parameter is an array with nums
+//multiply all the values and return it
+//example [1, 2, 3, 4] = 24
