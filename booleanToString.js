@@ -8,4 +8,6 @@ function booleanToString (b){
 console.log(booleanToString(true))
 console.log(booleanToString(typeof b))
 
+//prep // just a conversion
+
 
