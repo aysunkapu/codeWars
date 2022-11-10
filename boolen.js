@@ -5,4 +5,9 @@ function boolToWord (bool) {
 
 console.log(boolToWord(false))
 
+//prep
+//parameter is a boolean 
+//if param is true return Yes if not return No
+//example (true) => Yes (false) => No
+
 
