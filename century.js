@@ -13,3 +13,8 @@ function centuryCall (year){
 }
 
 console.log(centuryCall(2005))
+
+//prep
+//parameter is a single num as a year
+//return the century of the given year
+//example  1900 --> 19   1601 --> 17
