@@ -11,3 +11,8 @@ function hoopCount (n){
 
 console.log(hoopCount(10))
 
+//prep
+
+//parameter is a number
+//if it less than 10 return 'Keep at it until you get it.'  otherwise return  'Great, now move on to tricks.'
+//example (11) => 'Great, now move on to tricks.'
