@@ -9,3 +9,8 @@
 function toAnArray (str){
     return str.split(" ")
 }
+
+//prep
+//parameter is a string
+//return the string into an array of words
+//example "Robin Singh" ==> ["Robin", "Singh"]
