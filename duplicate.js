@@ -4,3 +4,9 @@ function duplicate(arr) {
 }
 
 console.log(duplicate([1,2,3]))
+
+
+//prep
+//parameter is an array
+//return is the dup. of the given array
+//example  duplicate([1,2,3,4,]);  [1,2,3,4,1,2,3,4]
