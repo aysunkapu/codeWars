@@ -6,3 +6,8 @@ function evenOrOdd (num){
 }
 
 console.log(evenOrOdd(11))
+
+//prep
+//parameter is a single number
+//if the given number is even return "Even" otherwise return  "Odd" 
+//example (11) => Odd 
