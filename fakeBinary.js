@@ -7,3 +7,8 @@ function returnDigit(digit){
 
 }
 console.log(returnDigit('hello'))
+
+//prep
+//parameter is a string
+//replace any digit below 5 with '0' and any digit 5 and above with '1' then return it
+//example (hello)=> 11111
