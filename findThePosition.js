@@ -11,3 +11,8 @@ function positionInTheAlphabet(letter){
 }
 
 console.log(positionInTheAlphabet('z'))
+
+//prep
+//parameter is a string
+//return is a number(position of the given string)
+//example b => 2
