@@ -16,3 +16,7 @@ function goals (laliga, copaDelRey, champions){
     return laliga+copaDelRey+champions
 }
 console.log(goals(2,3,5))
+
+//have 3 parameters which are numbers
+//return sum of the given numbs
+//example  5, 10, 2  -->  17
