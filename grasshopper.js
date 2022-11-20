@@ -8,3 +8,8 @@
 function checkAlive (health) {
     return health>0 ? true: false
   }
+
+  //prep
+  //parameter is a single num
+  //return true if the given num is bigger than 0, otherwise false
+  //example (2)=> true
