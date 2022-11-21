@@ -21,3 +21,7 @@ function weatherInfo (temp) {
     var celsius = (temperature - 32) * (5/9);
     return celsius;
   }
+
+  //parameter is a single number(it is fah. temp.)
+  //conver to celsius and return it
+  //example 32=> 0
