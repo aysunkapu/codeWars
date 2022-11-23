@@ -7,6 +7,9 @@
 
 
 function encodeDupes (string){
+    //toLoweCase
+    //split -> map -> indexOf === lastIndexOf ? '(' : ')'
+    //join
     return string.toLowerCase().split('').map( (l,i,a) => a.indexOf(l) === a.lastIndexOf(l) ? '(' : ')').join('')
 }
 
