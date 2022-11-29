@@ -14,6 +14,17 @@
 
 function missingNumber(arr, mixArr){
     //use filter method
-    return arr.filter(n=> mixArr.indexOf(n)=== -1 )[0] || 0
+    // return arr.filter(n=> mixArr.indexOf(n)=== -1 )[0] || 0
+
+    // or use conditionals then reduce methods
+
+    if(arr.length === mixArr.length){
+        return 0
+    }else{
+        let arrSum = arr.reduce((a,c)=> a+c,0)
+        let mixSum = mixArr.reduce((a,c)=> a+c,0)
+        return arrSum - mixSum
+    }
 }
-console.log(missingNumber([1,2,3],[1,2,3]))
+console.log(missingNumber([1,2,3],[2,3]))
+
