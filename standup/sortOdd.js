@@ -8,7 +8,9 @@
 
 function sortArray(arr){
     //filter -> sort
-    const oddNums = arr.filter(n=> n%2 !==0).sort((a,b)=> a-b)
+    // const oddNums = arr.filter(n=> n%2 !== 0).sort((a,b)=> a-b)
+    //or 
+    const oddNums = arr.filter(n=> n%2).sort((a,b)=> a-b)
 
     //console.log(oddNums)
     //map
