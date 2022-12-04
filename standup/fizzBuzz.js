@@ -15,3 +15,9 @@ function fizzBuzz (num){
     }
 }
 
+//prep
+//parameter is a single number
+//console log every num from 1 to given number and if the integer is divisible by 2 print out " Fizz" if the integer is divisible by 3 print out "Buzz",  f the integer is divisible by 2 and 3 print out "FizzBuzz"
+// example (3)=> 1
+               // Fizz
+               // Buzz
