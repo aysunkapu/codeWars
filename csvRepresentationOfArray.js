@@ -1,5 +1,5 @@
-// Create a function that returns the CSV representation of a two-dimensional numeric array.
-// 
+//  Create a function that returns the CSV representation of a two-dimensional numeric array.
+
 // Example:
 // 
 // input:
@@ -15,8 +15,7 @@
 //     +'30,31,32,33,34'
 // Array's length > 2.
 
-function toCsvText (arr){
-    return arr.join('\n')
-}
 
-console.log(toCsvText([20,21,22,23,24]))
+function toCvsText(array){
+    return array.join('\n')
+}
