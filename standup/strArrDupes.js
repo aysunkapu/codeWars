@@ -14,4 +14,9 @@ function stringDup(arr){
   )
 }
 
+// another solution
+function dup(array) {
+    return array.map(word => word.split('').filter( (letter, index) => letter !== word[index + 1]).join(''))
+    };
+
 console.log(stringDup(["kelless", "keenness"]), "['keles', 'kenes']")
