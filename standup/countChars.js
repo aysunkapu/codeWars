@@ -14,8 +14,21 @@ function countCharacters(str){
         }
     }
     return countObj
+}
+
+//another option
+
+function count(string){
+    const count = {}
+    string.split('').forEach(char =>{
+        count[char] = count[char] ? (count[char]+1) : 1;
+    })
+
+    return count;
 
 }
+
+console.log(count('abaa'), "{'a': 3, 'b': 1}")
 
 console.log(countCharacters('abaa'), "{'a': 3, 'b': 1}")
 
