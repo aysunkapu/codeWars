@@ -24,7 +24,7 @@ function isItSame (a,b){
     }
 }
 console.log(isItSame('a', 'b'))
-
+// another solution
 sameCase = (a,b) => /[a-z]/i.test(a) && /[a-z]/i.test(b) ? Number(/[a-z]/.test(a) == /[a-z]/.test(b)) : -1
 
 // have two parameters as numbers
