@@ -25,6 +25,8 @@ function isItSame (a,b){
 }
 console.log(isItSame('a', 'b'))
 
+sameCase = (a,b) => /[a-z]/i.test(a) && /[a-z]/i.test(b) ? Number(/[a-z]/.test(a) == /[a-z]/.test(b)) : -1
+
 // have two parameters as numbers
 //return 1 if both chars are the same case, return 0 if the chars are letters but not same case, return -1 if one of the chars is not a letter
 // example // 'A' and 'C' returns 1
