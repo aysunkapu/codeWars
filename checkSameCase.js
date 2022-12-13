@@ -24,3 +24,9 @@ function isItSame (a,b){
     }
 }
 console.log(isItSame('a', 'b'))
+
+// have two parameters as numbers
+//return 1 if both chars are the same case, return 0 if the chars are letters but not same case, return -1 if one of the chars is not a letter
+// example // 'A' and 'C' returns 1
+          // 'b' and 'G' returns 0
+          // '0' and '?' returns -1
