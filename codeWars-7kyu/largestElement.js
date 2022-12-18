@@ -14,4 +14,5 @@ console.log(largestElement(2, [7,6,5,4,3,2,1]), [6,7])
 
 
 //have two parameters, number and array with numbs
-//
+//return is  an array with largest n elements
+//example (2, [7,6,5,4,3,2,1]) => [6,7]
