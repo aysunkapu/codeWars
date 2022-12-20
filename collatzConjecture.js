@@ -37,6 +37,25 @@ var hotpo = function(n){
 // return the number of times you need to perform this algorithm to get n = 1
 // example: hotpo(23) returns 15  ==>  23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 
 
-  console.log(hotpo(6), 8)
-  console.log(hotpo(23), 15)
+ 
+
+  //another way to solve the problem
+
+  const hotpo = n => n === 1 ? 0 : 1 + hotpo(n % 2 ? (n * 3 + 1) : n / 2);
+
+  var hotpo = function(n){
+    if(n == 0) return 0;
+    for (let i = 0; i < 100; i++){
+        if (n == 1){
+          return i;
+        }else if ( n % 2 == 0){
+          n /= 2;
+        }else{
+          n = n * 3 + 1
+        }
+    }  
+}
+
+console.log(hotpo(6), 8)
+console.log(hotpo(23), 15)
   
