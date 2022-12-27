@@ -19,3 +19,7 @@ function pillars (numPil, dist, width){
 
 console.log(pillars(2, 20, 25))
 console.log(pillars(11, 15, 30))
+
+//have 3 parameters, number of pillars, distance between pillars and width of pillars
+//return  the distance between the first and the last pillar in centimeters
+// example 2, 20, 25 => 2000  // 11, 15, 30 => 15270
