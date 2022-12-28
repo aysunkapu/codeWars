@@ -21,3 +21,11 @@
 function elevator(left, right, call){
     return Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right';
   }
+
+  //have 3 parameters called left, right and call, they are numbers
+  //return left if call minus right bigger than call minus left otherwise return right
+  // example // elevator(0, 1, 0); // => "left"
+// elevator(0, 1, 1); // => "right"
+// elevator(0, 1, 2); // => "right"
+// elevator(0, 0, 0); // => "right"
+// elevator(0, 2, 1); // => "right"
