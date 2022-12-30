@@ -13,3 +13,7 @@ function sumOfDifferences(arr) {
     
   }
   
+
+  //parameter is an array with numbers
+  // sum the diffs. between cons. pairs in the array in descending order // if it is empty or has only one element then return 0
+  // example [2, 1, 10]  -->  9  =>   Sum: (10 - 2) + (2 - 1) = 8 + 1 = 9
