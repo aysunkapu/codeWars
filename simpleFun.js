@@ -17,3 +17,4 @@ function theatherFun(nCols, nRows, col, row){
 }
 
 console.log(theatherFun(16,11,5,3), 96)
+console.log(theatherFun(13,6,8,3) , 18)
