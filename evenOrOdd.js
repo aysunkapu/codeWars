@@ -11,7 +11,7 @@ function evenOrOdd (num){
     return num%2 ? "Odd" : "Even"
 }
 // arrow function
-const evenOrOdd = num => num%2 ? "Odd" : "Even"
+const evenOrOdd = num => num % 2 ? "Odd" : "Even"
 
 console.log(evenOrOdd(11))
 
