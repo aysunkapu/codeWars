@@ -18,4 +18,9 @@ function returnNeg (number){
     }
 }
 
+//better way
+function makeNegative(num) {
+    return -Math.abs(num)
+  }
+
 console.log(returnNeg(-12))
