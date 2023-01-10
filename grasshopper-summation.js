@@ -12,6 +12,15 @@
 const summation = n => n * (n + 1) / 2;
 console.log(summation(4))
 
+//another solution
+let summustion = function(num){
+    let result = 0;
+    for(let i=1; i<=num; i++){
+        result += i;
+    }
+    return result;
+}
+
 //PREP
 //Parameter : is a number
 //Return : is a number as well
