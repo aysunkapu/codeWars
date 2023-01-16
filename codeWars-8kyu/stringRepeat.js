@@ -11,3 +11,8 @@ function repeatStr (n, s) {
     }
     return newStr
   }
+function repeatStr(n,s){
+    return s.repeat(n)
+}
+
+console.log(repeatStr(5,'hello'))
