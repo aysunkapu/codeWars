@@ -10,6 +10,8 @@ function toAnArray (str){
     return str.split(" ")
 }
 
+console.log(toAnArray("Hello World"))
+console.log(toAnArray("Merhaba Dunya"))
 //prep
 //parameter is a string
 //return the string into an array of words
