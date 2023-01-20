@@ -6,6 +6,11 @@ function hero(bullets, dragons){
     return dragons*2 <= bullets ? true : false
     }
 
+// or 
+function hero(bullets, dragons){
+    return bullets >= dragons * 2
+  }
+
     console.log(hero(12,3))
     console.log(hero(12,12))
     console.log(hero(8,4))
