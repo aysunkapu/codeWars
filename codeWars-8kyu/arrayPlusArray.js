@@ -14,3 +14,17 @@ function arrayPlusArray(arr1, arr2) {
   function arrayPlusArray(arr1, arr2) {
     return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
   }
+  //with loop
+
+  function arrayPlusArray(arr1, arr2){
+    let sum = 0;
+    for(let i=0; i < arr1.length; i++){
+      const arrVal1=arr1[i];
+      const arrVal2=arr2[i];
+
+      const addedVal = arrVal1 + arrVal2;
+      sum += addedVal;
+    }
+    return sum
+  }
+  console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
