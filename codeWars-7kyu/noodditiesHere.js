@@ -23,3 +23,5 @@ function noOdds(values){
 
 
 console.log(noOdds([1,2,3,4,5]))
+console.log(noOdds([1,2,3,4,5,6,7,8,9,10]))
+console.log(noOdds([1,2,3,4,5,22,13,46,78]))
