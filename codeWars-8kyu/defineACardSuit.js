@@ -7,24 +7,23 @@
 // ('3) -> return 'hearts'
 // ('3♠') -> return 'spades'
 
-// function defineCards (card){
-//     if(card == '3♣' ){
-//         return 'clubs'
-//     }else if(card == '3♦' ){
-//         return 'diamonds'
-//     }else if(card == '3♥' ){
-//         return 'hearts'
-//     }else if(card == '3♠' ){
-//         return 'spades'
-//     }
-// }
-// 
-// console.log(defineCards('3♠'))
-
-
   function defineSuit(card) {
     if(card.includes('♥')) return 'hearts'
     if(card.includes('♦')) return 'diamonds'
     if(card.includes('♣')) return 'clubs'
     if(card.includes('♠')) return 'spades' 
     }
+
+    function defineSuit (card){
+      if(card.includes('♣')){
+        return "clubs";
+      }else if(card.includes('♦')){
+        return "diamonds"
+      }else if(card.includes('♥')){
+        return "hearts"
+      }else if(card.includes('♠')){
+        return "spades"
+      }
+    }
+
+    console.log(defineSuit('3♠'))
