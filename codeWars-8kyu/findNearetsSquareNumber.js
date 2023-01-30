@@ -6,4 +6,8 @@
 function nearestSquareNumber (n){
     return Math.pow(Math.round(Math.sqrt(n)), 2);
 }
-console.log(nearestSquareNumber(12))
+
+const nearestSq = n => (Math.round(Math.sqrt(n)))**2 
+
+console.log(nearestSquareNumber(9999))
+console.log(nearestSq(9999))
