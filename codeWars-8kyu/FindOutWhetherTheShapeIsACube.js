@@ -12,6 +12,12 @@
 // 
 // Note: side will be an integer
 
-let cubeChecker = function(volume, side){
-    return  volume> 0 && side > 0 ? side*side*side === volume : false;
-  };
+// let cubeChecker = function(volume, side){
+//     return  volume> 0 && side > 0 ? side*side*side === volume : false;
+//   };
+
+// or lets use Math.pow() for better code.
+
+let cubeChecker = function (volume, side){
+    return Math.pow(side, 3) == volume && side > 0;
+}
