@@ -16,3 +16,12 @@ function numberToPower(number, power){
 }
 console.log(numberToPower(2,3))
 console.log(numberToPower(2,4))
+
+// another solution 
+
+function numberToPow(num, pow){
+    if (pow === 0) return 1;
+    return num * numberToPow(num, pow - 1)
+  }
+
+console.log(numberToPow(2,7))
