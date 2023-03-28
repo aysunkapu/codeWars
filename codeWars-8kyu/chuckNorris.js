@@ -10,5 +10,5 @@
 
 
 function ifChuckSaysSo(){
-    return false
+    return !true
  }
