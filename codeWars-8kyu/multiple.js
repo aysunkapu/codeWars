@@ -10,5 +10,5 @@
 
 
 function multOfInd(array){
-    return array.filter((num, i)=> num%i===0)
+    return array.filter((num, i)=> num % i===0)
 }
