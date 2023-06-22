@@ -8,3 +8,7 @@
 
 
 const tripleTrouble = (one, two, three) => one.split("").map((letter, index) => letter + two[index] + three[index]).join("");
+
+function tripleTrouble(one, two, three){
+    return one.split('').map((l, p)=>one[p]+two[p]+three[p]).join('')
+   }
